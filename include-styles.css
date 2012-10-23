@@ -1,0 +1,221 @@
+ul { list-style-type:none; padding:0px; margin:0px; }
+li { list-style-type:none; padding:0px; margin:0px; }
+.html.traveling-exhibitions { width:988px; margin:auto; margin-bottom:28px; padding:18px 18px 0 18px; overflow:auto;   text-align:left;  }
+.html.exchanges-and-collaborations { width:988px; margin:auto; margin-bottom:28px; padding:18px 18px 0 18px; overflow:auto;   text-align:left;  }
+.html.excavations { width:988px; margin:auto; margin-bottom:28px; padding:18px 18px 0 18px; overflow:auto;   text-align:left;  }
+.html.conservation { width:988px; margin:auto; margin-bottom:28px; padding:18px 18px 0 18px; overflow:auto;   text-align:left;  }
+.html.traveling-works-of-art { width:988px; margin:auto; margin-bottom:28px; padding:18px 18px 0 18px; overflow:auto;   text-align:left;  }
+.html.fellowships { width:988px; margin:auto; margin-bottom:28px; padding:18px 18px 0 18px; overflow:auto;   text-align:left;  }
+
+
+/*GENERAL STYLES*/
+.html .category {  display:inline; font-family:"Franklin Gothic Demi","Arial Black", Arial, sans-serif; font-size:18px; font-weight: normal; margin: 0 0 4px 0;  }
+.html .imageDetail { margin:0 0 20px 0; }
+.html .imageHolder .image img { max-width:500px; }
+.html .colorbar { display:block; margin: 10px 0px 32px 0px; }
+ .html .colorbar img { height:21px; width:100%; display:block; }
+
+.html a { text-decoration:none; cursor:pointer; }
+.html .popupText p { margin:4px 0px; }
+	.html .popupText .title { font-size:18px; margin-bottom:14px; border-bottom: solid 1px #c0c0c0; padding-bottom:10px; line-height:130%; font-family:georgia; }
+	.html .popupText .venue { font-size:12px; }
+	.html .popupText .date { font-size:12px; margin-bottom:10px; border-bottom: solid 1px #c0c0c0; padding:0px 0 12px 0; }
+	.html .popupText .country { font-size:12px; }
+	.html .popupText .Description { font-size:12px; line-height:160%; margin:18px 0 5px 0; }
+	.html .popupText .descriptionShort { font-size:18px; }
+	.html .popupText .recipientName { font-size:12px; }
+	.html .popupText .fellowshipName { font-size:12px; }
+	.html .popupText .institutionalTitle { font-size:12px; }
+	.html img { text-decoration:none; border:none; }	
+.html .mmaLink { position:relative; float:right; margin:70px 0 0 0; }
+
+.html .tombstone { font-family:arial, helvetica, sans serif; font-size:11px; line-height:130%; margin-bottom:15px; }
+
+#imageAndText { margin:0px; }
+
+/*SPECIFIC for CATEGORIES*/
+/*FOR TRAV EX*/
+.html.traveling-exhibitions .popupText { float:left; width:445px; font-family:arial, helvetica, sans serif; margin:0px; border-left: solid 1px #c0c0c0; padding-left:20px; min-height:725px;  }
+.html.traveling-exhibitions .popupText .title { border-bottom:none; margin:0px 0px 7px 0px; padding: 0px; }
+.html.traveling-exhibitions .popupText .descriptionShort { font-size:12px; font-weight:bold; color:#9E0508; border-bottom:solid 1px #c0c0c0; margin-bottom:12px; padding-bottom:6px; }
+.html.traveling-exhibitions .objectImageInfo { float:left; width:500px; margin:0 20px 0 0; }
+.html.traveling-exhibitions .objectImageInfo .imageHolder .image { width:500px; text-align:left; float:left; margin:0 0 10px 0; }
+.html.traveling-exhibitions .objectImageInfo .imageHolder .text { font-family:arial, helvetica, sans serif; font-size:11px; margin:0 0 12px 0; float:left; width:500px; line-height:140%; }
+
+/*FOR FELLOWSHIPS*/
+.html.fellowships .objectImageInfo { float:left; width:500px; margin:0px; border-right: solid 1px #c0c0c0; padding-right:22px; min-height:550px; }
+.html.fellowships .objectImageInfo .imageHolder .image { width:500px; text-align:center; float:left; margin:0 0 10px 0; }
+.html.fellowships .objectImageInfo .imageHolder .text { font-family:arial, helvetica, sans serif; font-size:11px; margin:0px; float:left; width:495px; line-height:140%; }
+.html.fellowships .objectImageInfo .arrow-holder {  }
+.html.fellowships .popupText { float:right; width:440px; font-family:arial, helvetica, sans serif; margin:0 0 0 22px; font-size:12px;  }
+.html.fellowships .popupText p { margin:0 0 5px 0; line-height:160%;  }
+.html.fellowships .popupText .date {  margin-bottom:5px; padding: 0 0 0px; border-bottom:none; }
+.html.fellowships .popupText .venue { font-size:12px; margin: 4px 0px; font-family:arial, helvetica, sans serif; font-weight:normal; }
+.html.fellowships .popupText .Description { display:block; font-size:12px; line-height:160%; }
+.html.fellowships .popupText .institutionalTitle { margin:4px 0px; }
+.html.fellowships .popupText .Fellowship { margin-bottom:4px; }
+.html.fellowships .popupText .department {  margin-bottom:4px; }
+
+/*FOR TRAV WORKS OF ART*/
+.html.traveling-works-of-art .objectImageInfo { position:relative; float:left; width:500px; margin:0px; padding-right:22px; border-right:solid 1px #c0c0c0; min-height:675px; }
+.html.traveling-works-of-art .objectImageInfo .imageHolder .image { width:500px; text-align:center; float:left; margin:0 0 10px 0; }
+.html.traveling-works-of-art .objectImageInfo .imageHolder .text { font-family:arial, helvetica, sans serif; font-size:11px; margin:0 0 12px 0; float:left; width:495px; line-height:140%; }
+.html.traveling-works-of-art .objectImageInfo .arrow-holder {  }
+.html.traveling-works-of-art .popupText { float:right; width:440px; font-family:arial, helvetica, sans serif; margin:0 0 0 22px; }
+.html.traveling-works-of-art .popupText p { font-size:12px; margin:2px 0; line-height:160%;  }
+.html.traveling-works-of-art .popupText .title { font-size:18px; margin: 0 0 7px 0; padding: 0 0 6px 0;   }
+.html.traveling-works-of-art .popupText .date { margin-bottom:7px;  }
+/*.html.traveling-works-of-art .popupText .country { font-size:12px;   }
+.html.traveling-works-of-art .popupText .Description { display:none; }
+*/
+
+/*FOR EXCHANGES*/
+.html.exchanges-and-collaborations .objectImageInfo { float:left; width:500px; margin:0px 22px 0 0; }
+.html.exchanges-and-collaborations .objectImageInfo .imageHolder .image { width:500px; text-align:left; float:left; margin:0 0 10px 0; }
+.html.exchanges-and-collaborations .popupText { float:left; width:440px; font-family:arial, helvetica, sans serif; margin:0px; border-left:solid 1px #c0c0c0; padding-left:22px; min-height:550px;  }
+.html.exchanges-and-collaborations .objectImageInfo .imageHolder .text { font-family:arial, helvetica, sans serif; font-size:11px; margin:0 0 12px 0; float:left; width:500px; line-height:150%; }
+.html.exchanges-and-collaborations .popupText p { font-size:12px; margin:0 0 5px 0;  }
+.html.exchanges-and-collaborations .popupText .title { font-size:18px; margin-bottom:14px;   }
+.html.exchanges-and-collaborations .popupText .country { font-size:12px; border-bottom:none;   }
+.html.exchanges-and-collaborations .date { border-bottom:none; font-size:12px; margin-bottom:10px; }
+
+/*FOR CONSERVATION*/
+.html.conservation .objectImageInfo { float:left; width:500px; margin:5px 22px 0 0; }
+.html.conservation .objectImageInfo .imageHolder .image { width:500px; text-align:left; float:left; margin:0 0 10px 0; }
+.html.conservation .popupText { float:left; width:400px; font-family:arial, helvetica, sans serif; margin:0px; border-left:solid 1px #c0c0c0; padding-left:22px; min-height:700px; }
+.html.conservation .objectImageInfo .imageHolder .text { font-family:arial, helvetica, sans serif; font-size:11px; margin:0 0 12px 0; float:left; width:500px; line-height:140%; }
+.html.conservation .popupText p { font-size:12px; margin:0 0 5px 0;  }
+.html.conservation .popupText .title { font-size:18px; margin-bottom:10px; padding-bottom:8px;   }
+.html.conservation .popupText .country { font-size:12px; border-bottom:none;   }
+.html.conservation .date { border-bottom:none; font-size:12px; margin-bottom:10px; }
+
+/*FOR EXCAVATIONS*/
+.html.excavations .objectImageInfo {float:left; width:500px; margin:0 22px 0 0; }
+.html.excavations .objectImageInfo .imageHolder .image { width:500px; text-align:left; float:left; margin:0 0 10px 0; }
+.html.excavations .popupText { float:left; width:400px; font-family:arial, helvetica, sans serif; border-left: solid 1px #c0c0c0; padding-left:22px; min-height:700px;  }
+.html.excavations .objectImageInfo .imageHolder .text { font-family:arial, helvetica, sans serif; font-size:11px; margin:0 0 6px 0; float:left; width:500px; line-height:140%; }
+.html.excavations .popupText p { font-size:12px; margin:0 0 5px 0;  }
+.html.excavations .popupText .title { font-size:18px; margin-bottom:10px;    }
+.html.excavations .popupText .country { text-transform:uppercase; font-size:12px; border-bottom:none;   }
+.html.excavations .popupText .DescriptionShort {font-size:12px; font-weight:bold; color:#ff0000; margin-bottom:5px;    }
+.html.excavations .date { border-bottom:none; font-size:12px; margin-bottom:10px; }
+
+
+
+
+
+#popupListHolder { display:none; position:fixed; width:100%; height:100%; margin:0px; text-align:center; top:142px; z-index:3; }
+#popupList { position:relative; margin:auto; min-height:170px; text-align:left; background-color: #fef070; opacity:.9; width:945px; padding:5px 5px 30px; -moz-box-shadow: 2px 2px 3px #262626; -webkit-box-shadow: 2px 2px 3px #262626; box-shadow: 2px 2px 3px #262626; }
+	#popupList ul { list-style-type:none; margin: 0 0 30px 20px; padding:0px; }
+	#popupList li { list-style-type:none; margin:0px; height:24px; padding:0px; cursor:pointer; }
+#popupList h3 {font-family:arial, helvetica, sans serif; font-size:12px; line-height:135%; }
+#popupList .popupHeader .closeItem { height:13px; width:10px; color:#262626; font-family:arial, helvetica, sans serif; font-size:13px; cursor:pointer; float:right; padding:0px; text-align:center; margin: 1px -15px 0 0;  }
+#popupList .popupHeader .closeItem:hover { color:#c0c0c0; }
+.popupHeaderList { margin:10px 30px; min-height:130px; }
+.popupHeaderList p { position:relative; float:left; text-align:left;  font-family:arial, helvetica, sans serif; font-size:12px; margin:7px 0 5px; height:15px; width:890px; }
+.popupHeader { font-family:"Franklin Gothic Demi","Arial Black", Arial, sans-serif; font-size:20px; margin: 10px 30px; border-bottom:solid 1px #262626; padding:0 0 5px 0; }
+.popupListCategory { position:relative; float:left; text-align:left; height:15px; font-weight: normal; font-family:Arial, sans-serif; font-size:12px; margin: 0 7px 0 0; padding-bottom:2px; cursor:pointer; }
+#popupList .traveling-exhibitions .popupListCategory { border-bottom: solid 3px #9E0508; }
+#popupList .traveling-works-of-art .popupListCategory { border-bottom: solid 3px #3366CC; }
+#popupList .fellowships .popupListCategory { border-bottom: solid 3px #339933; }
+#popupList .exchanges-and-collaborations .popupListCategory { border-bottom: solid 3px #623095; }
+#popupList .conservation .popupListCategory { border-bottom: solid 3px #C22A8F; }
+#popupList .excavations .popupListCategory { border-bottom: solid 3px #FF0000; }
+.arrow-holder {
+    text-align: left;
+    width: 100%;
+    margin-bottom:3px;
+}
+.image-counter {
+    color: #888888;
+    font-family: arial,helvetica;
+    font-size: 11px;
+    height: 20px;
+    width: 73px;
+}
+.arrow {
+    display: block;
+}
+.arrow-right {
+    background-image: url("./art/popup-arrow-right.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+    /*float: left;*/
+    height: 14px;
+    margin: -18px 0 0 58px;
+    width: 12px;
+}
+.arrow-left {
+    background-image: url("./art/popup-arrow-left.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+    /*float: left;*/
+    height: 14px;
+    margin: -14px 0 0 43px;
+    width: 12px;
+}
+#total-count {
+    margin: 0 4px 0 0;
+}
+
+
+.imageHolder li { display:none; }
+.imageHolder li.largeImage { display:block; }
+
+/*BACK BUTTON*/
+#back a { text-decoration:none; cursor:pointer; color:#c0c0c0; padding:0 0 3px 0; }
+#back a:hover { color:#262626; }
+#back { font-family:arial, helvetica, sans serif; font-size:10px; text-transform:uppercase; width:100%; position:relative; float:left; margin:14px 0 0 14px; }
+#back img { margin:0 7px 0 0; display:inline; }
+#backButtonLink { margin:0px; display:inline;  }
+
+
+.popupFooter { display:block; position:relative; float:left; height:40px; padding:0 0 5px 0; font-family:arial, helvetica, sans serif; font-size:11px; text-transform:uppercase; border-top:solid 3px #262626; background-color:#fff; line-height:254%; overflow:hidden;  }
+
+.html.traveling-exhibitions .popupFooter { width:830px; }
+.html.exchanges-and-collaborations .popupFooter { width:830px; }
+.html.excavations .popupFooter { width:830px; }
+.html.conservation .popupFooter { width:830px; }
+.html.traveling-works-of-art .popupFooter { width:500px; }
+.html.fellowships .popupFooter { width:500px; }
+
+.popupFooterLogo { width:30px; height:20px; position:relative; float:left; margin:10px 0 0 0;  }
+.popupFooterMATW { width:300px; position:relative; float:left; margin:7px 0 0 0; }
+
+#popupList .popupFooter { display:none; width:490px; height:40px; padding: 0 0 0 10px;  }
+#popupList .popupFooter .popupFooterLogo { width:30px; height:20px; position:relative; float:left; margin:7px 0 0 0;  }
+#popupList .popupFooter .popupFooterMATW { width:300px; position:relative; float:left; margin:7px 0 0 0; }
+
+
+/* CREDITS PAGE */
+#creditsHolder { background-color:#fff; padding:20px; margin:14px 0 0 0; border: solid 1px #c0c0c0; }
+.MATWcredits { width:850px; margin:0 auto; padding: 20px 0 0 0; overflow:auto; text-align:left; }
+	.MATWcredits p { font-family: arial, helvetica, sans serif; font-size:12px; margin:14px 0; color:#262626; }
+	.MATWcredits .jobTitle { font-size:12px; color:#000000; margin-right:7px; font-weight:bold;  }
+	.MATWcredits .staffName { }
+	.MATWcredits .creditsAbout { margin: 20px 0 0 0; line-height:160%; padding:0 0 14px;  }
+	.MATWcredits .execProducers { margin-bottom: 20px; }
+.creditsTitle { font-family:"arial black"; font-size:18px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

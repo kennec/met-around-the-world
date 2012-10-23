@@ -1,0 +1,250 @@
+html { height: 100% }
+body { height: 100%; margin: 0px; padding: 0px;  font-family:arial, helvetica; sans serif; background-color: #F6F6F6; }
+#map_canvas { height:100%; }
+#mapHolder { position:relative; width:988px; height:460px; margin:auto; display:block; }
+
+#header { background-color:#252525; height:35px; width:100%; position:fixed; top:0px; z-index:3; }
+h1 { font-family:"Franklin Gothic Demi","Arial Black", Arial, sans-serif; font-size:32px; font-weight:normal; 
+color:#262626; width: 500px; clear:left;}
+h2 { font-family:georgia; font-size:14px; line-height:90%; font-weight:normal; color:#000;  }
+h3 { font-family:arial, helvetica; sans serif; font-size:14px; line-height:90%; font-weight:normal; margin:0px; padding:0px;  }
+h4 { font-family:arial, helvetica; sans serif; font-size:12px; line-height:90%; font-weight:normal;  }
+h5 { font-family:arial, helvetica; sans serif; font-size:11px; font-weight:bold; margin:0px; padding:0px; color:#000;  }
+a {  text-decoration:none; }
+
+p { margin:0px; padding:0px; }
+
+#topNav { position: fixed; width:100%; background-image: url("./art/matw-trans.png"); border-bottom: 1px solid #c0c0c0; height:107px; top:34px; z-index:3; }
+
+.mainContentHolder { margin:142px 0 0 0; }
+.clear { clear:both; }
+#title { position: relative; width:988px; margin: auto; color:#262626; height:107px; }
+#title a { color:#262626; font-family:"Franklin Gothic Demi","Arial Black", Arial, sans-serif; font-size:32px; font-weight:normal; 
+color:#262626; width: 500px;}
+.input { 
+	border: 1px solid #c0c0c0; 
+	background-color: #fff; 
+	height: 23px; 
+	text-align: center;
+	font-family:Arial, helvetica, sans-serif; 
+	font-weight:bold;
+	color: #c0c0c0;
+	font-size:12px;
+	width: 205px;
+	margin: 0px; 
+	cursor:pointer;
+	vertical-align:middle;
+	top:-50%;
+	padding: 1px;
+	line-height:23px;
+	}
+.inputActive {
+	color: #000;
+}
+	#matwNav { 
+		color: #262626;
+	    font-family: arial,helvetica,sans serif;
+	    font-size: 11px;
+	    height: 70px;
+	    width: 450px;
+	    vertical-align: center;
+	    position:absolute; 
+	    top:40px;
+	    left:547px;
+	    }
+
+#regMenu { position:relative; float:left; margin: 0 14px; cursor:pointer; display:inline; }
+
+#menu { position:relative; float:left; cursor:pointer; display:inline;  }
+
+#mainTitle { position:relative; float:left; margin:29px 0 0 0;  }
+#list-of-regions { display:none; width: 209px; padding: 0; background-color:#fff; }
+
+#list-of-regions li { border-bottom:solid 1px #252525; border-left:solid 1px #252525; border-right:solid 1px #252525; padding:5px 10px; }
+#list-of-regions li:hover { background-color:#262626; color:#ffffff; }
+
+/*MATW NAV*/
+
+#menu ul { display:none; margin: 0px; list-style-type: none; text-align:left; border-bottom:solid 1px #252525;  }
+#menu li { height:13px; width:186px; list-style-type: none; padding:8px 7px 5px; text-align:left;
+	 	cursor:pointer; line-height:100%; border-top:solid 1px #252525; border-right:solid 1px #252525; background-color: #fff; z-index: 10;}	
+#categories { width:205px; }
+
+
+#nav-all { border-left: solid 8px #404040; } 
+#nav-excavations { border-left: solid 8px #ff0000; }
+#nav-conservation { border-left: solid 8px #c22a8f;   }
+#nav-works { border-left: solid 8px #3366cc;  }
+#nav-exhibitions { border-left: solid 8px #9E0508;  }
+#nav-fellowships { border-left: solid 8px #339933;   }
+#nav-collaborations { border-left: solid 8px #623095;  }
+.categories:hover, .categories.active {color:#fff; }
+#nav-all:hover, #nav-all.active  { background-color:#404040; color:#fff;} 
+#nav-excavations:hover, #nav-excavations.active  { background-color:#ff0000; color:#fff;}
+#nav-conservation:hover, #nav-conservation.active  { background-color:#c22a8f; color:#fff;}
+#nav-works:hover, #nav-works.active  { background-color:#3366cc; color:#fff;  }
+#nav-exhibitions:hover, #nav-exhibitions.active  { background-color:#9E0508; color:#fff; }
+#nav-fellowships:hover, #nav-fellowships.active  { background-color:#339933; color:#fff; }
+#nav-collaborations:hover, #nav-collaborations.active  { background-color:#623095; color:#fff;}
+
+#list-view-nav { font-size: 10px; line-height:140%; border-left: solid 1px #b5b5b5;  }
+
+#listView { height:35px; width:50px; font-size:10px; border-left: solid 1px #b5b5b5; padding-left:10px; float:left; line-height:35px; }
+
+.siteWidth { width:988px; margin:auto; }
+
+.shadow { -moz-box-shadow: 2px 2px 3px #b5b5b5; -webkit-box-shadow: 2px 2px 3px #b5b5b5; box-shadow: 2px 2px 3px #b5b5b5; }
+
+.categoryheader { display:none; margin:20px 0 10px; }
+.category { display: none; font-family:"Franklin Gothic Demi","Arial Black", Arial, sans-serif; font-size:18px; font-weight: normal; margin: 0 0 4px 0;  }
+.categoryheader .colorBar {display: none;}
+.colorBar { display:block; margin: 0px 0; }
+	.colorBar img { height:5px; display:block; }
+
+.imageDetail { padding:0px; margin:0px; }
+
+/*MATW BOTTOM NAV*/
+
+/*MATW Bottom Nav Info Area*/
+#infoArea { position:relative; }
+#infoArea.siteWidth { width:988px; margin:auto; }
+#aboutMatw { font-family:arial, helvetica, sans serif; color:#262626; margin:0px; height:32px; border-bottom:solid 1px #c0c0c0; }
+#aboutText { position:relative; float:left; text-align:left; width:100%px; height:85px; line-height:160%; padding:0px;  }
+#aboutTextArea { text-align:left; width:988px;  font-size:12px; margin:14px 0 0 0px; border-bottom: dotted 1px #c0c0c0; padding-bottom:14px; }
+.category-heading-trav-ex { font-family: "arial black"; arial, helvetica; font-size: 12px; }
+.category-heading-trav-works { font-family: "arial black", arial, helvetica; font-size: 12px; }
+.category-heading-conservation { font-family: "arial black", arial, helvetica; font-size: 12px; }
+.category-heading-excavations { font-family: "arial black", arial, helvetica; font-size: 12px; }
+.category-heading-fellowships { font-family: "arial black", arial, helvetica; font-size: 12px; }
+.category-heading-other-collab { font-family: "arial black", arial, helvetica; font-size: 12px; }
+#aboutTextArea p { width:988px; }
+#aboutMatwHeader { position:relative; float:left; font-family:"Franklin Gothic Demi","Arial Black", Arial, sans-serif; font-size:12px; margin:0px; font-weight:normal; width:402px; line-height:120%; padding:10px 0 0 0;  }
+#readMore { position:relative; float:left; text-align:left; background-image:url("./plus.png"); background-repeat:no-repeat; width:9px; height:9px; margin:3px 0 0 0; cursor:pointer; }
+#categories-info { width:100%; font-family:arial, helvetica; sans serif; font-size:11px; color:#222222; margin:0px; }
+#categoryInfo { display:none; width:988px; margin: 0; border-bottom:solid 1px #c0c0c0; }
+#categoryInfo ul {  width:988px; height:75px; }
+#topCat { border-top:solid 1px #c0c0c0; }
+#categoryInfo li { display:block; position:relative; height:35px; text-align:left; margin:10px 0 0 0; float:left;   }
+	.categoryHeading { font-family:Arial, sans-serif; font-size:13px; margin:10px 0 5px; font-weight:bold;}
+	li.categoryHeading { width:235px; }
+	.categoryDescription { font-family:arial, helvetica; sans serif; font-size:13px; color:#262626; line-height:130%; }
+	li.categoryDescription { width: 750px; }
+#categoryInfo #travExCat { border-top: solid 5px #9E0508; }
+#categoryInfo #travWorksCat { border-top: solid 5px #3366cc; }
+#categoryInfo #conservationCat { border-top: solid 5px #c22a8f; }
+#categoryInfo #excavationsCat { border-top: solid 5px #ff0000; }
+#categoryInfo #fellowshipsCat { border-top: solid 5px #339933; }
+#categoryInfo #exchangesCat { border-top: solid 5px #623095; }
+
+
+.category-column { width:140px; position:relative; float:left; margin:14px 12px 0; padding-bottom:14px; }
+.category-column p { margin:0 0 7px 0; line-height:130%; }
+
+#about-excavations { border-bottom: solid 21px #ff0000;  }
+#about-conservation { border-bottom: solid 21px #c22a8f;}
+#about-trav-works {  border-bottom: solid 21px #3366cc;}
+#about-trav-ex {   border-bottom: solid 21px #9E0508;}
+#about-fellowships { border-bottom: solid 21px #339933; }
+#about-other-collab { border-bottom: solid 21px #623095; }
+
+.country-list ul { position:relative; float:left; list-style-type:none; margin:0px 70px 0px 0; padding:0px; }
+.country-list li { cursor:pointer; }
+
+/*MIDDLE EAST NAV*/
+#country-list-middle-east { position:relative; float:left; font-family:arial, helvetica, sans serif; font-size:11px; margin:0px 0 0 160px; display:none;  }
+#country-list-middle-east li { padding:2px 0 2px 0; margin: 5px 0 5px 0; }
+
+/*EUROPEAN NAV*/
+#country-list-europe { position:relative; float:left; width:100%; font-family:arial, helvetica, sans serif; font-size:11px; margin:20px 0 0 60px; display:none; color:#c0c0c0;  }
+#country-list-europe li { padding:2px 0 2px 0; margin: 5px 0 5px 0; }
+
+
+/*LIST VIEW*/
+
+.listViewSection { font-family:georgia; font-size:14px; font-weight:normal; color:#999999;}
+
+
+.matwItem { position:relative; float:left; text-align:left; margin:7px; border:solid 1px #c0c0c0; background-color:#fff; 
+	padding:0px; opacity: .75; cursor: pointer; height: 235px; overflow:hidden; width: 180px;}
+.matwItem:hover { z-index:2; opacity: 1.0; overflow:visible; border:solid 1px #c0c0c0; }
+.listviewHover { position:relative; float:left; text-align:left; visibility:hidden; z-index:1; width:180px; background-color:#fff; margin:0 0px 0px -1px; padding:0px; border-left:solid 1px #c0c0c0; border-right:solid 1px #c0c0c0; }
+.categoryText { font-size: 12px; margin:0px; padding:7px 0 10px 8px; text-align:left; }
+.matwItem:hover .listviewHover { visibility:visible; }
+
+.traveling-exhibitions:hover .categoryText { background-color:#9E0508; margin:0px; padding:7px 0 10px 8px; color:#fff; }
+.traveling-works-of-art:hover .categoryText { background-color:#3366CC; margin:0px; padding:7px 0 10px 8px; color:#fff; }
+.excavations:hover .categoryText { background-color:#ff0000; margin:0px; padding:7px 0 10px 8px; color:#fff; }
+.conservation:hover .categoryText { background-color:#c22a8f; margin:0px; padding:7px 0 10px 8px; color:#fff; }
+.fellowships:hover .categoryText { background-color:#339933; margin:0px; padding:7px 0 10px 8px; color:#fff; }
+.exchanges-and-collaborations:hover .categoryText { background-color:#623095; margin:0px; padding:7px 0 10px 8px; color:#fff; }
+
+.traveling-exhibitions .listviewHover  { border-bottom: solid 5px #9E0508;  }
+.traveling-works-of-art .listviewHover  { border-bottom: 5px solid #3366CC; }
+.excavations .listviewHover  { border-bottom: solid 5px #ff0000; }
+.conservation .listviewHover  { border-bottom: solid 5px #c22a8f;   }
+.fellowships .listviewHover  { border-bottom: solid 5px #339933;   }
+.exchanges-and-collaborations .listviewHover  { border-bottom: solid 5px #623095;  }
+
+
+.matwInner { text-align:center; margin:0px 0px 10px 0px;  width:180px; height: auto; background-color:#fff; }
+
+.matwInner .displayCountries { text-align:left; margin:10px 10px 4px 10px; font-family:arial, sans-serif; font-size:11px; text-transform:uppercase; }
+	.matwInner h3 { text-align:left; font-weight:bold; font-family:arial, sans serif; font-size:11px; margin:0px 10px 4px 10px; padding:0px; line-height:150%; }
+	.matwInner p { display:block; font-weight:normal; font-family:arial, sans serif; font-size:11px; margin:10px 10px; text-align:left;  }
+	.matwInner span { display:inline; font-weight:normal; font-family:arial, sans serif; font-size:9px; padding:0px 0px 0px 4px; margin:0px; text-align:left; color: #666; line-height:50%;}
+
+
+.matwItem .listviewHover p { font-weight:normal; color:#262626; font-family:arial, sans serif; font-size:11px; margin:3px 10px; text-align:left; line-height:135%;  }
+.matwItem .listviewHover .venue { border-top:solid 1px #c0c0c0;}
+.matwItem .listviewHover .date { margin-bottom: 10px; }
+.matwItem .listviewHover  { margin-bottom:9px; }
+.matwItem .listviewHover .venue { font-size:11px; padding-top:8px; }
+.matwItem .listviewHover .descriptionShort, .recipientName, .fellowshipName, .institutionalTitle { 
+	font-size:11px;font-family:arial, sans serif;
+}
+.matwItem .listviewHover .descriptionShort { font-weight:bold; margin:2px 10px; }
+.matwItem .listviewHover .recipientName {  margin:2px 10px; }
+.matwItem .listviewHover .fellowshipName, .institutionalTitle { margin:3px 10px; line-height:125%; }
+.matwItem .listviewHover .institutionalTitle { margin-bottom: 4px; }
+
+.matwItem.traveling-exhibitions .matwInner .descriptionShort { margin:0px 10px 10px 14px; color:#9E0508; font-weight:bold; }
+.matwItem.excavations .matwInner .descriptionShort { margin:0px 10px; color:#ff0000; font-weight:bold; }
+.matwItem.conservation .matwInner .listviewHover .country { border-top:solid 1px #c0c0c0; padding-top:8px; }
+.matwItem.excavations .matwInner .listviewHover .country { border-top:solid 1px #c0c0c0; padding-top:8px; }
+.matwItem.fellowships .matwInner .listviewHover .recipientName { border-top:solid 1px #c0c0c0; padding-top:8px; }
+
+.bottomContent { margin-top:10px;  }
+
+#fullTextArea { margin:auto; width:982px; }
+
+.post-image {  margin:7px 7px; display:block; text-align:center; }
+	.post-image img { width:175px;  }
+
+.image { margin:0 0 -4px 0; }
+
+hr { color:#c0c0c0; }
+
+.close { display:block; color:#000; position:absolute; top:14px; left:170px; font-family:arial, helvetica, sans serif; font-size:13px; cursor:pointer;  }
+
+.heading { font-family:georgia; font-size:18px; padding:10px 0 10px 0; }
+
+#footer { display:none; position:absolute; top:50px; left:0px; width:100%; height:auto;  z-index:3; }
+#lightBox { display:none; position:fixed; top:0px; left:0px; width:100%; height:100%; background-image:url("art/lightbox.png"); z-index:2; }
+
+#spacer { display:block; background-color:#f6f6f6; height:175px; width:100%;}
+
+#mapKey { display:block; width:216px; height:140px; position:absolute; bottom:35px; left:15px; background-image:url("./mapkey.png"); font-family:arial, helvetica, sans serif; font-size:11px; border:solid 1px #c0c0c0;  }
+	#mapKey ul { margin:14px; }
+	#mapKey li { position:relative; float:left; text-align:left; margin:0 0 4px 0; width:200px; }
+	#mapKey li span { position:relative; float:left; height:9px; width:9px; margin: 1px 7px 0 0; }
+	
+#noContentRegion { display:none; font-family:arial, helvetica, sans serif; font-size:14px; font-weight:bold; width:988px; margin:auto; margin-top:30px; }
+
+
+/*FOOTER - CREDITS*/
+#creditsContainer { position:relative; width:100%; border-top:solid 1px #c0c0c0; background-image:url("./art/matw-trans.png"); }
+#credits { padding:0px; margin: 0px auto; width:988px; color:#666666;  }
+#metCopyright { position: relative; float:left; font-family: arial, helvetica, sans serif; font-size:10px; text-transform: uppercase; border-right: solid 1px #c0c0c0; margin:0 14px; padding-right:14px; height:35px; line-height:35px;  }
+#creditLink { position:relative; float:left; font-family: arial, helvetica, sans serif; font-size:10px; text-transform: uppercase; height:35px; line-height:35px; }
+#creditLink a { text-decoration:none; cursor:pointer; color: #666666; }
+#creditLink a:hover { color:#262626; }

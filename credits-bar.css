@@ -1,0 +1,18 @@
+/*landing page*/
+
+#creditsContainer { position:relative; width:100%; border-top:solid 1px #c0c0c0; background-image:url("./art/matw-trans.png"); }
+#credits { padding:0px; margin: 0px auto; width:988px; color:#666666;  }
+#metCopyright { position: relative; float:left; font-family: arial, helvetica, sans serif; font-size:10px; text-transform: uppercase; border-right: solid 1px #c0c0c0; margin:0 14px; padding-right:14px; height:35px; line-height:35px;  }
+#creditLink { position:relative; float:left; font-family: arial, helvetica, sans serif; font-size:10px; text-transform: uppercase; height:35px; line-height:35px; }
+#creditLink a { text-decoration:none; cursor:pointer; color: #666666; }
+#creditLink a:hover { color:#262626; }
+
+
+/*item page*/
+
+#creditsContainer { position:absolute; bottom:-142px; width:100%; border-top:solid 1px #c0c0c0; background-image:url("./art/matw-trans.png"); }
+#credits { padding:0px; margin: 0px auto; width:988px; color:#666666;  }
+#metCopyright { position: relative; float:left; font-family: arial, helvetica, sans serif; font-size:10px; text-transform: uppercase; border-right: solid 1px #c0c0c0; margin:0 14px; padding-right:14px; height:35px; line-height:35px;  }
+#creditLink { position:relative; float:left; font-family: arial, helvetica, sans serif; font-size:10px; text-transform: uppercase; height:35px; line-height:35px; }
+#creditLink a { text-decoration:none; cursor:pointer; color: #666666; }
+#creditLink a:hover { color:#262626; }
